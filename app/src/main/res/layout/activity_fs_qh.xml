@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FsQH">
+
+    <com.example.into_gdufe.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.youth.banner.Banner
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/banner3"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="12dp"
+        android:text="   沁湖"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="@color/main_green"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    三水校区沁湖（原名：情 人湖）湖边地带。沁湖位于广东财经大学三水校区东门附近，环绕图书馆、实验楼等建筑物，绿树成荫，曾经是一个理想的漫步悠闲的地方，因受众多情侣青睐，因而名情人湖，现在的沁湖已经不仅仅是情人们的好去处，而且成为了同学悠闲、学习、工作的理想场所。"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

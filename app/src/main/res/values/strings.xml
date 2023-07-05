@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Into_Gdufe</string>
+    <string name="fs_lib">"    位于佛山市广东财经大学三水校区的核心区主轴线上，高22.5米，共5层，总建筑面积达2.1万平方米，是整个校区的标志性建筑。设计藏书容量120万册，设各类阅览座位2500个。整个建筑采用了先进的结构化综合布线系统，配置了先进的计算机网络系统和安全防护系统等。"</string>
+    <string name="xx">【校训】厚德、励学、笃行、拓新</string>
+    <string name="xh">"    广东财经大学校徽是学校徽章的简称，是一个学校的标志。广东财经大学校徽由中英校名、建校时间1983年，财经大学缩写字母变形图案等构成。意喻乘着改革春风诞生于珠江之滨，心怀中国梦展翅飞翔！"</string>
+    <string name="xh_js">"    “厚德、励学、笃行、拓新”包含四个不同层面的递进关系。“厚德”是在做人的层面，对师生的基本要求，强调要做到品行端正、人格健全，有高尚的精神追求；“励学”是在治学的层面，在“厚德”的基础上，勉励师生勤奋学习、刻苦磨砺，注重知识的积累、素质的提升；“笃行”是在实践的层面，要把“厚德、励学”的成果运用到实践中去，接受实践的检验，做到学以致用，用有所成；“拓新”是厚德、励学、笃行三个层面的升华，起总揽作用，要求师生的德智体等方面不断得到全面的发展，开创新的局面，迈向新的境界。"</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gc_intr_1">"    广东财经大学坐落于千年商都、海上丝绸之路的东方起源地——广州，是博士学位授予单位，广东乃至华南地区财经政法人才培养高地、现代服务业与社会治理创新发展研究重地，教育部新商科智慧学习工场(2020)(A)项目试点院校（2021年），广东省“冲一流、补短板、强特色”特色高校提升计划建设高校，广东省依法治校示范校，广东省大学生创新创业教育示范校，广东省深化新时代教育评价改革试点校，广东省“绿色学校”。"</string>
+    <string name="gc_intr_2">"     学校始建于1983年，原名广东财经学院，起始办学层次为本科教育；1985年更名为广东商学院，2003年获得硕士学位授予权，2008年以“优秀”等级通过本科教学工作水平评估；2013年更名为广东财经大学，2021年获批为博士学位授予单位。"</string>
+    <string name="gc_intr_3">"    建校以来，学校始终与国家和民族同呼吸、共命运、心连心，以“人才梦”托起“广财梦”，践行“厚德、励学、笃行、拓新”的校训，秉持“习礼乐文，精于术业”的办学理念，彰显“商法融合、实践创业、多元协同”的办学特色，为国家培养了一大批具有良好思想道德、科学精神、人文素养、专业知识和国际视野的应用型、复合型、创新型高级专门人才。经过近40年的发展以及全体师生的不懈奋斗，学校已经建设成为一所学科特色鲜明、师资力量雄厚、办学效益显著、社会影响力和知名度较高的财经类院校，并在2020年学校党代会确立了建设大湾区一流财经大学的发展新目标。"</string>
+    <string name="gc_intr_4">"    学校现有广州和佛山两个校区，占地面积2275亩，广州校区位于广州琶洲经济开发区核心区；佛山校区位于风景秀丽的佛山市云东海旅游经济区。学校绿树繁花,香飘四季,环境幽雅,洁净清新,是读书治学的理想场所，共有30个教学科研单位、66个本科专业、1个博士学位授权一级学科点、9个硕士学位授权一级学科点，1个硕士学位授权二级学科点，17个硕士专业学位授权点；有全日制本科生、研究生31000多人；教学科研仪器设备总值14281万元；图书馆藏书495万册，馆舍面积5.4万平方米，能满足师生多元化的阅读需求。"</string>
+    <string name="gc_intr_5">"    学校以经济学、管理学、法学为主体，文学、理学、工学、艺术学等多学科协同发展，大力发展新文科、新商科、交叉学科。应用经济学是博士学位授权一级学科、省级优势重点学科和“冲补强”重点建设学科，工商管理和法学2个一级学科是省级优势重点学科和“冲补强”重点建设学科，理论经济学是省级特色重点学科，数字经济学2021年获批新增为“冲补强”重点建设学科。"</string>
+</resources>

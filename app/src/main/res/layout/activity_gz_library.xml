@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GzLibrary">
+
+    <com.example.into_gdufe.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:orientation="vertical">
+
+        <com.youth.banner.Banner
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/banner6"
+            android:layout_width="match_parent"
+            android:layout_height="360dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="12dp"
+            android:text="   广州校区图书馆"
+            android:background="@color/main_green"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      广东财经大学图书馆创办于1983年，历经39年的建设，已发展成为拥有298万册纸质图书和较完备的数字资源的综合性现代化图书馆。
+我校在广州校区和佛山校区均设有图书馆，广州校区新图书馆于2016年1月投入使用，面积3.3万平方米，楼高8层，融合了“商”的主题，又兼具“斗”的外形，学校赋予其美好的寓意和期望——广财学人和学子“才高八斗”。"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
